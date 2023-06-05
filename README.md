@@ -1,2 +1,2 @@
-# printify-rs
+# Printify.rs
 Printify Rust api
