@@ -1,2 +1,2 @@
-# Printify.rs
-Printify Rust api
+# Rustic Printing
+Rust API for accessing Web printing services
