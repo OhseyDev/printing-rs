@@ -1,0 +1,19 @@
+[package]
+name = "rustic-printing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11.22", features = ["blocking", "native-tls", "json"] }
+tokio = { version = "1.35.0", optional = true, features = ["net"] }
+serde = "1.0.193"
+
+[features]
+printify = []
+printful = []
+teaspring = []
+printaura = []
+spreadshirt = []
+no-async = []
+tokio = ["dep:tokio"]
+
