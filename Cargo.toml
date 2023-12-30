@@ -11,9 +11,9 @@ serde = "1.0.193"
 [features]
 printify = []
 printful = []
-teaspring = []
+teespring = []
 printaura = []
 spreadshirt = []
-no-async = []
-tokio = ["dep:tokio"]
+# async = []
+# tokio = ["dep:tokio", "async"]
 

@@ -6,6 +6,6 @@ pub mod printful;
 pub mod printaura;
 #[cfg(feature = "spreadshirt")]
 pub mod spreadshirt;
-#[cfg(feature = "teaspring")]
-pub mod teaspring;
+#[cfg(feature = "teespring")]
+pub mod teespring;
 
